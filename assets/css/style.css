@@ -1,1 +1,60 @@
 body { font-family: Arial, sans-serif; background: #fff; color: #000; }
+/* Styles for capitulo1/1.1.html */
+body.page-1-1 { line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; }
+.page-1-1 h1,
+.page-1-1 h2,
+.page-1-1 h3 { color: #015c34; }
+.page-1-1 img { width: 100%; margin: 20px 0; border: 2px solid #ddd; border-radius: 10px; }
+.page-1-1 section { margin-bottom: 40px; }
+
+/* Styles for capitulo1/1.2.html */
+body.page-1-2 { margin: 40px; line-height: 1.6; color: #333; }
+.page-1-2 h2 { color: #0a5c45; }
+.page-1-2 img { margin-top: 20px; max-width: 100%; height: auto; border: 2px solid #ddd; }
+.page-1-2 .imagem-legenda { font-size: 14px; color: #555; margin-top: 5px; font-style: italic; }
+
+/* Styles for capitulo2/2.1.html */
+body.page-2-1 { background: #f9f9f9; padding: 40px; color: #333; }
+.page-2-1 h1,
+.page-2-1 h2 { color: #222; }
+.page-2-1 p { margin-bottom: 15px; line-height: 1.6; }
+.page-2-1 ul { margin-bottom: 20px; }
+.page-2-1 .ranking-section { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 40px; }
+.page-2-1 .card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+.page-2-1 .card h2 { font-size: 18px; margin-bottom: 15px; text-align: center; }
+.page-2-1 .rank { font-size: 16px; padding: 8px; margin: 5px 0; border-radius: 8px; background: #e8e8e8; text-align: center; }
+.page-2-1 .rank:nth-child(2) { background: #d0e6ff; }
+.page-2-1 .rank:nth-child(3) { background: #ffe6b0; }
+.page-2-1 .rank:nth-child(4) { background: #fcd6d6; }
+
+/* Styles for capitulo2/2.2.html */
+body.page-2-2 { padding: 20px; }
+.page-2-2 h2 { color: #c62828; }
+.page-2-2 .gabinete { display: inline-block; margin: 20px; text-align: center; }
+.page-2-2 .modulo-grid { display: grid; gap: 4px; margin-top: 10px; }
+.page-2-2 .modulo { background-color: #e0e0e0; border: 2px solid #555; display: flex; align-items: center; justify-content: center; font-size: 12px; height: 50px; }
+.page-2-2 .label { margin-top: 10px; font-weight: bold; }
+
+/* Styles for capitulo2/2.3.html */
+body.page-2-3 { line-height: 1.6; margin: 40px; background-color: #f9f9f9; }
+.page-2-3 h2 { color: #333366; }
+.page-2-3 img { display: block; margin: 30px auto; max-width: 100%; height: auto; border: 1px solid #ccc; }
+.page-2-3 .content { max-width: 800px; margin: 0 auto; background-color: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+
+/* Styles for capitulo2/2.4.html */
+body.page-2-4 { margin: 40px; background-color: #f4f4f4; color: #333; }
+.page-2-4 h2 { color: #006699; }
+.page-2-4 img { max-width: 100%; height: auto; margin-top: 20px; border: 1px solid #ccc; border-radius: 8px; }
+.page-2-4 .download { margin-top: 20px; display: inline-block; padding: 10px 15px; background-color: #006699; color: white; text-decoration: none; border-radius: 5px; }
+.page-2-4 .download:hover { background-color: #004466; }
+
+/* Styles for capitulo2/2.5.html */
+body.page-2-5 { background-color: #ffffff; color: #000; display: flex; flex-direction: column; align-items: center; padding: 40px; }
+.page-2-5 h1 { color: #333; }
+.page-2-5 .fluxo-container { display: flex; align-items: center; justify-content: center; gap: 30px; margin-top: 40px; flex-wrap: wrap; }
+.page-2-5 .item { background-color: #d0ebff; padding: 20px 30px; border-radius: 15px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); font-weight: bold; text-align: center; min-width: 150px; position: relative; }
+.page-2-5 .arrow { font-size: 30px; color: #666; }
+@media (max-width: 768px) {
+  .page-2-5 .fluxo-container { flex-direction: column; }
+  .page-2-5 .arrow { transform: rotate(90deg); }
+}
