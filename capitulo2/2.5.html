@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Fluxo Interno - Painel de LED</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .fluxo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      background-color: #d0ebff;
+      padding: 20px 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      font-weight: bold;
+      text-align: center;
+      min-width: 150px;
+      position: relative;
+    }
+
+    .arrow {
+      font-size: 30px;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .fluxo-container {
+        flex-direction: column;
+      }
+
+      .arrow {
+        transform: rotate(90deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Fluxo Interno do Painel de LED</h1>
+
+  <div class="fluxo-container">
+    <div class="item">Controladora</div>
+    <div class="arrow">→</div>
+    <div class="item">Receiving Card</div>
+    <div class="arrow">→</div>
+    <div class="item">Módulos</div>
+    <div class="arrow">→</div>
+    <div class="item">Imagem</div>
+  </div>
+</body>
+</html>

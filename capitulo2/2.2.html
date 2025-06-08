@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>2.2 Módulo de LED</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      color: #c62828;
+    }
+    .gabinete {
+      display: inline-block;
+      margin: 20px;
+      text-align: center;
+    }
+    .modulo-grid {
+      display: grid;
+      gap: 4px;
+      margin-top: 10px;
+    }
+    .modulo {
+      background-color: #e0e0e0;
+      border: 2px solid #555;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      height: 50px;
+    }
+    .label {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>2.2 Módulo de LED</h2>
+  <p>O <strong>módulo de LED</strong> é a <strong>menor parte pronta de um painel</strong>, como se fosse uma peça de LEGO. Ele já vem com os <strong>LEDs soldados</strong>, o <strong>chip de controle (CI)</strong> e todos os componentes integrados em uma <strong>placa de circuito</strong>.</p>
+
+  <p>Esses módulos são conectados entre si para formar um <strong>gabinete</strong>, e os gabinetes montam o painel final. Por isso dizemos que o painel é <strong>modular</strong>: isso facilita manutenção, personalização e transporte.</p>
+
+  <p><strong>Na linha fixa</strong> usamos módulos de <strong>320x160 mm</strong> para formar gabinetes padrão de <strong>960x960 mm</strong>.</p>
+  <p><strong>Na linha rental</strong> usamos módulos de <strong>250x250 mm</strong> em gabinetes de <strong>500x1000 mm</strong>.</p>
+
+  <p><strong>Em projetos personalizados</strong>, o tamanho do módulo influencia diretamente o tamanho final do painel. Por exemplo, um painel de <strong>1440x960 mm</strong> pode ser montado com módulos de 320x160 mm, respeitando as divisões exatas.</p>
+
+  <p>A escolha do módulo define o tamanho final do painel, o encaixe entre peças e o custo da estrutura.</p>
+
+  <div class="gabinete">
+    <div class="label">Rental – Gabinete 500x1000 mm<br>(Módulos 250x250)</div>
+    <div class="modulo-grid" style="grid-template-columns: repeat(2, 120px); grid-template-rows: repeat(4, 50px);">
+      <div class="modulo">250x250</div>
+      <div class="modulo">250x250</div>
+      <div class="modulo">250x250</div>
+      <div class="modulo">250x250</div>
+      <div class="modulo">250x250</div>
+      <div class="modulo">250x250</div>
+      <div class="modulo">250x250</div>
+      <div class="modulo">250x250</div>
+    </div>
+  </div>
+
+  <div class="gabinete">
+    <div class="label">Fixo – Gabinete 960x960 mm<br>(Módulos 320x160)</div>
+    <div class="modulo-grid" style="grid-template-columns: repeat(3, 100px); grid-template-rows: repeat(6, 40px);">
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+      <div class="modulo">320x160</div>
+    </div>
+  </div>
+
+  <div class="gabinete">
+    <div class="label">Personalizado – Painel 1440x960 mm<br>(Módulos 320x160)</div>
+    <div class="modulo-grid" style="grid-template-columns: repeat(4, 100px); grid-template-rows: repeat(6, 40px);">
+      <!-- 1440 / 320 = 4 colunas, 960 / 160 = 6 linhas -->
+      <div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div>
+      <div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div>
+      <div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div>
+      <div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div>
+      <div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div>
+      <div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div><div class="modulo">320x160</div>
+    </div>
+  </div>
+
+</body>
+</html>
