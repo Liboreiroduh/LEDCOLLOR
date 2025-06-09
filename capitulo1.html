@@ -1,132 +1,186 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sumário do Treinamento LED</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capítulo 1 - Treinamento Teórico LEDCollor</title>
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      margin: 0;
       font-family: 'Poppins', sans-serif;
-      background-color: #1e1e1e;
-      color: #fff;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
     }
 
-    .wrapper {
-      background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
-      border-radius: 20px;
+    .container {
       max-width: 900px;
-      margin: 40px auto;
-      padding: 40px 20px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      margin: 0 auto;
+      padding: 30px;
     }
 
     header {
-      background-color: #fff;
-      border-radius: 12px;
-      padding: 20px;
       text-align: center;
-      margin-bottom: 30px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    }
-
-    header h1 {
-      font-size: 2rem;
-      color: #e10600;
-      margin: 0;
-    }
-
-    .course-title {
-      font-size: 2.2rem;
-      color: #e10600;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-
-    .subtitle {
-      font-size: 1rem;
-      color: #333;
-      margin-bottom: 40px;
-    }
-
-    .modules {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-      padding: 0 10px;
-    }
-
-    .module {
-      background-color: #1e2a38;
+      padding: 20px;
+      background-color: #e10600;
       color: white;
+      border-radius: 12px;
+      margin-bottom: 30px;
+    }
+
+    .chapter-content {
+      background-color: white;
       padding: 20px;
       border-radius: 12px;
-      text-align: left;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-      transition: transform 0.2s;
-    }
-
-    .module:hover {
-      transform: scale(1.03);
-    }
-
-    .module h3 {
-      margin-top: 0;
-      font-size: 1.3rem;
-      color: #ffc300;
-    }
-
-    .module p {
-      font-size: 0.95rem;
-      margin-bottom: 15px;
-    }
-
-    .module a {
-      background-color: #ffc300;
-      color: #1e2a38;
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 8px;
-      font-weight: 600;
-      display: inline-block;
-    }
-
-    .module a:hover {
-      background-color: #e0aa00;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
 
     img {
       max-width: 100%;
       height: auto;
       display: block;
-      margin: 0 auto;
+      margin: 20px auto;
+      border-radius: 8px;
+    }
+
+    .imagem-legenda {
+      font-size: 0.9rem;
+      color: #555;
+      text-align: center;
+      margin-top: 5px;
+    }
+
+    .back-btn {
+      display: block;
+      text-align: center;
+      margin: 40px auto;
+      background-color: #1e2a38;
+      color: #ffc300;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      width: fit-content;
+    }
+
+    .back-btn:hover {
+      background-color: #ffc300;
+      color: #1e2a38;
     }
   </style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <h1>LEDCOLLOR</h1>
-    </header>
+<div class="container">
+  <header>
+    <h1>Treinamento Teórico LEDCollor</h1>
+  </header>
 
-    <div class="course-title">Curso Técnico de Vendas</div>
-    <div class="subtitle">Formação completa para profissionais de vendas no setor de iluminação LED</div>
+  <div class="chapter-content">
+    <h1>📌 1.1 O que é um painel de LED</h1>
+    <section>
+      <p>Um <strong>painel de LED</strong> é uma estrutura modular composta por centenas ou milhares de micro LEDs (diodos emissores de luz), que trabalham em conjunto para formar imagens, vídeos e animações com altíssimo impacto visual...</p>
+      <p>Sua grande vantagem é a <strong>flexibilidade de tamanho e formato</strong>...</p>
+    </section>
 
-    <div class="modules">
-      <div class="module">
-        <h3>Capítulo 1</h3>
-        <p>Introdução ao mercado de LED e conceitos básicos.</p>
-        <a href="capitulo1.html">Acessar</a>
-      </div>
-      <div class="module">
-        <h3>Capítulo 2</h3>
-        <p>Conhecimento técnico e aplicações avançadas.</p>
-        <a href="capitulo2.html">Acessar</a>
-      </div>
+    <h2>🔎 Comparativo direto: LED vs TV e Outdoor fixo</h2>
+    <section>
+      <p>Enquanto a televisão e a mídia tradicional impressa...</p>
+      <ul>
+        <li>Imagem visível em qualquer iluminação</li>
+        <li>Formatos e tamanhos personalizados</li>
+        <li>Conteúdo dinâmico (vídeo, texto, promoções)</li>
+        <li>Instalação em qualquer tipo de ambiente</li>
+      </ul>
+      <p><strong>Veja na imagem abaixo:</strong></p>
+      <img src="assets/img/Mosaico comparativo.png" alt="Mosaico comparativo">
+    </section>
+
+    <h2>🚫 Limitações das mídias tradicionais</h2>
+    <section>
+      <ul>
+        <li>Tamanhos padronizados...</li>
+        <li>Necessidade de troca física...</li>
+        <li>Perda de cor ou rasgos com o tempo...</li>
+        <li>Menor impacto visual...</li>
+      </ul>
+    </section>
+
+    <h2>🌟 Liberdade criativa com painéis de LED</h2>
+    <section>
+      <p>Os painéis de LED não se limitam a retângulos...</p>
+      <ul>
+        <li>Em <strong>igrejas</strong>...</li>
+        <li>Em <strong>áreas externas</strong>...</li>
+        <li>No formato de <strong>globo 360°</strong>...</li>
+        <li>Como <strong>testeiras animadas</strong>...</li>
+      </ul>
+      <p><strong>Veja algumas dessas possibilidades:</strong></p>
+      <img src="assets/img/Mosaico possibilidades.png" alt="Mosaico possibilidades">
+    </section>
+  </div>
+
+  <div class="chapter-content">
+    <h2>🔹 1.2 O que é um pixel em um painel de LED SMD</h2>
+    <p>Em um painel de LED, a menor unidade visível da imagem é o <strong>pixel</strong>...</p>
+    <p>Nos painéis modernos, usamos a tecnologia <strong>SMD</strong>...</p>
+    <p>Esses encapsulamentos são minúsculos...</p>
+    <p>➡️ Dentro de um único <strong>módulo</strong>...</p>
+    <img src="assets/img/LED SMD.png" alt="Imagem de LED SMD ampliado">
+    <div class="imagem-legenda">
+      Exemplo visual de um pixel SMD ampliado e sua organização dentro de um módulo.
     </div>
   </div>
+
+  <div class="chapter-content">
+    <h1>📌 Etapa 1 – O que é um painel de LED</h1>
+    <h2>1.3 Aplicações comerciais</h2>
+    <h3>🟢 Segmento: DOOH (Digital Out Of Home)</h3>
+    <ul>
+      <li>Painéis de LED outdoor</li>
+      <li>Totens de propaganda</li>
+      <li>Fachadas comerciais...</li>
+      <li>Vitrines interativas...</li>
+    </ul>
+
+    <h3>🟢 Segmento: PDVs, Indoor e Shoppings</h3>
+    <ul>
+      <li>Lojas com painéis internos...</li>
+      <li>Quiosques em shopping...</li>
+      <li>Painéis de LED em supermercados...</li>
+      <li>Displays em pontos de venda...</li>
+    </ul>
+
+    <h3>🟢 Segmento: Igrejas e Templos</h3>
+    <ul>
+      <li>Exibição de versículos</li>
+      <li>Letras de músicas...</li>
+      <li>Informativos e mensagens ao público</li>
+    </ul>
+
+    <h3>🟢 Segmento: Eventos e Shows</h3>
+    <ul>
+      <li>Shows de bandas</li>
+      <li>Eventos corporativos...</li>
+      <li>Painéis de fundo de palco...</li>
+    </ul>
+
+    <h3>🟢 Segmento: Residencial</h3>
+    <ul>
+      <li>Painéis decorativos em piscina</li>
+      <li>Mini teatros ou salões de festa</li>
+      <li>Ambientes de lazer com LED</li>
+    </ul>
+
+    <p><strong>📌 Imagem aqui:</strong> Mosaico de aplicações variadas</p>
+    <img src="assets/img/Mosaico aplicação.png" alt="Mosaico de Aplicações Comerciais de LED">
+  </div>
+
+  <a class="back-btn" href="index.html">&larr; Voltar ao Sumário</a>
+</div>
 </body>
 </html>
