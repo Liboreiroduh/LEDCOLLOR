@@ -1,25 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sumário do Treinamento LED</title>
-  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #1e1e1e;
+      color: #fff;
+    }
+
+    .wrapper {
+      background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
+      border-radius: 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 40px 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    header {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #e10600;
+      margin: 0;
+    }
+
+    .course-title {
+      font-size: 2.2rem;
+      color: #e10600;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .modules {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      padding: 0 10px;
+    }
+
+    .module {
+      background-color: #1e2a38;
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: left;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s;
+    }
+
+    .module:hover {
+      transform: scale(1.03);
+    }
+
+    .module h3 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      color: #ffc300;
+    }
+
+    .module p {
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+    }
+
+    .module a {
+      background-color: #ffc300;
+      color: #1e2a38;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      display: inline-block;
+    }
+
+    .module a:hover {
+      background-color: #e0aa00;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
+  <div class="wrapper">
     <header>
-      <h1>Treinamento Teórico LEDCollor</h1>
+      <h1>LEDCOLLOR</h1>
     </header>
-    <div class="chapter-content">
-      <h2>📘 Sumário do Treinamento</h2>
-      <ul>
-        <li><a href="capitulo1.html">Capítulo 1 Completo</a></li>
-        <li><a href="capitulo2.html">Capítulo 2 Completo</a></li>
-        
-      </ul>
+
+    <div class="course-title">Curso Técnico de Vendas</div>
+    <div class="subtitle">Formação completa para profissionais de vendas no setor de iluminação LED</div>
+
+    <div class="modules">
+      <div class="module">
+        <h3>Capítulo 1</h3>
+        <p>Introdução ao mercado de LED e conceitos básicos.</p>
+        <a href="capitulo1.html">Acessar</a>
+      </div>
+      <div class="module">
+        <h3>Capítulo 2</h3>
+        <p>Conhecimento técnico e aplicações avançadas.</p>
+        <a href="capitulo2.html">Acessar</a>
+      </div>
     </div>
   </div>
 </body>
